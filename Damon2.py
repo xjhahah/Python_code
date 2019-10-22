@@ -36,3 +36,23 @@ s = s.capitalize()
 print(s)
 s = s.title()
 print(s)
+
+'''
+字符串内置函数：
+    字符串判断相关函数：
+        1、isupper() 是否小写
+        2、islower() 是否大写
+        3、isalpha() 是否字符串中只有字母组成，如果是则返回True，不是返回False
+        4、isdigit() 是否是纯数字，如果是则返回True，不是返回False
+        5、startswitch() 是否以指定的内容开头
+        6、endswitch() 是否以指定的内容结尾
+    
+'''
+
+s = 'hello'
+print(s.isalpha())
+
+qq = input('qq号码：')
+print(qq.isdigit())
+
+print(qq.startswith('x'))
