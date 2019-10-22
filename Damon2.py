@@ -20,3 +20,19 @@ s = r'D:\PythonCode\Python_code\Damon2.py'
 list1 = s.split('\\')
 
 print(list1)
+
+# 转换
+'''
+    upper() 转大写
+    lower() 转小写
+    title() 每个单词的首字母大写
+    capitalize() 字符串的第一个单词的首字母大写
+'''
+s = 'xjh is a man'
+print(s)
+s = s.upper()
+print(s)
+s = s.capitalize()
+print(s)
+s = s.title()
+print(s)
