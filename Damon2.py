@@ -46,10 +46,18 @@ print(s)
         4、isdigit() 是否是纯数字，如果是则返回True，不是返回False
         5、startswitch() 是否以指定的内容开头
         6、endswitch() 是否以指定的内容结尾
-    
+        
+    对齐与格式：
+        center(width) 居中
+        ljust(width) 左对齐
+        rjust(width) 右对齐
+    格式化：
+        format
+        %    
 '''
 
 s = 'hello'
+
 print(s.isalpha())
 
 qq = input('qq号码：')
