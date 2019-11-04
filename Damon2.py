@@ -52,15 +52,19 @@ print(s)
         ljust(width) 左对齐
         rjust(width) 右对齐
     格式化：
-        format
+        format  ： {}.format()
         %    
+    去除空格：
+        strip()
 '''
 
-s = 'hello'
+s = ' hello '
+# print(s.isalpha())
 
-print(s.isalpha())
 
-qq = input('qq号码：')
-print(qq.isdigit())
+print(s.strip())
 
-print(qq.startswith('x'))
+# qq = input('qq号码：')
+# print(qq.isdigit())
+
+# print(qq.startswith('x'))
